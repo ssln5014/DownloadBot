@@ -1,8 +1,6 @@
-# .github/workflows/release.yaml
+name: Build and Release DownloadBot
 
 on: 
-  release:
-    types: [created]
     workflow_dispatch:  # 添加手动触发事件
     
 jobs:
